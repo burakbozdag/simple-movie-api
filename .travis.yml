@@ -3,4 +3,5 @@ node_js:
   - 10
 before_install:
   - npm install
+  - npm install mocha
   - export NODE_ENV=production
